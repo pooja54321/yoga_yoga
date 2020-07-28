@@ -1,0 +1,378 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+html{
+	font-size: 15px;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+/******************************nav******************/
+
+.navbar{
+    background-color: #689c51;
+    font-size: 1.2em;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    
+}
+ .navbar-brand img{
+     margin-top: -30px;
+     margin-bottom: -30px;
+ }
+.navbar-nav li a{
+   color:#363636!important;
+   margin-right: 50px !important;
+   font-family:bold;
+   font-weight: 600;
+   font-size:18px;
+   text-transform: uppercase;
+
+}
+.navbar-nav li a:hover{
+   color:#8fcfd1 !important;
+
+
+}
+#h-mg{
+   border-radius: 50%; 
+}
+#h-cont h1{
+    font-size: 80px !important;
+    font-weight: 700 !important;
+    color:#689c51;
+   
+}
+#h-cont p{
+     
+    color:#689c51;
+    font-size: 21px;
+   
+    
+
+}
+#h-cont .btn{
+    color:white;
+    background-color:#689c51;
+    font-size: 21px;
+
+}
+ @media (max-width:768px)
+{
+  .navbar-brand img{
+      display: none;
+  }  
+  #h-cont h1{
+    font-size: 35px !important;
+    font-weight: 500 !important;
+     
+}
+#h-cont p{
+     
+    color:#bde8bc;
+    font-size: 17px;  
+
+}
+#h-cont .btn{ 
+    font-size: 17px;
+
+}
+}
+
+/*  end  home section  */
+
+/*     About section start */
+
+#about{
+	background-color: #bde8bc;
+	
+}
+
+.hero-info-head{
+	font-size: 4rem;
+	font-weight: 300;
+	color: #FFFFFF;
+	text-align:center;
+
+
+}
+
+.hero-info-subhead{
+	color: #FFFFFF;
+	text-align:center;
+}
+
+
+/*    *********************************************** About section start ****************** */
+
+
+/***************** start about3 *******************/
+#about3{
+background-image: url("images/blur.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.hero-info-heaad{
+	text-align: center;
+	font-size: 5rem;
+	font-weight: 500;
+	color: #689c51;
+
+
+}
+  .hero-info-subheaad{
+  	text-align: center;
+  	color: #689c51;
+  }
+
+/***************** start about4*******************/
+
+#about4{
+  min-height: 80vh;
+  width: 100%;
+  margin: 0px;
+  padding: auto;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bde8bc;
+}
+
+.hero-info-headi{
+  font-size: 2rem;
+  font-weight: 200;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.hero-info-subheadi{
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info-butn{
+  background-color:#FFFFFF;
+  border: none;
+  color: #6B9893;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1px;
+  align-items: center;
+}
+ 
+/******************page5************************/
+#about5{
+	min-height: 80vh;
+	width: 100%;
+	margin: 0px;
+	padding-top: 0px;
+	justify-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#about5{
+	background-image: url("images/ccc.jpg");
+}
+
+.hero-info-headin{
+	font-size: 2rem;
+	font-weight: 200;
+	color: #2E8B57;
+
+}
+
+.hero-info-subheadin{
+	color: #2E8B57;
+}
+
+.hero-info-button {
+  background-color:#2E8B57; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1px;
+}
+/***************page6***************** about over*************and services section begains***********/
+
+#services{
+	background-color:#bde8bc; 
+}
+
+.hero-info-headi{
+
+color: #FFFFFF;
+}
+
+.hero-info-subheadi{
+  color: #FFFFFF;
+}
+/***************page7*****************/
+
+
+.trainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.paran{
+	color: #2E8B57;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.headn{
+	color: #2E8B57;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/**************page8**********************/
+#services-three{
+	background-color:#6B9893;
+}
+
+.headserv{
+text-align: center;
+font-size: 5rem;
+font-weight: 500;
+color: #FFFFFF;
+
+}	
+.paraserv{
+text-align: center;
+color: #FFFFFF;
+align-items: center;
+}
+
+.subscribe{
+    background-color:#689c51;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#subscribe-box{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+input{
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    background: #fff;
+    width: 40%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px 0 0 25px;
+    padding: 0 25px;
+}
+
+input[type="submit"]{
+    position: relative;
+    left: -25px;
+    background: #E2EDE7;
+    width: 15%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px 25px 25px 25px;
+    color: #6B9893 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*****************************footer**************************************************/
+#footer{
+    padding-top: 200px;
+    background-color: #F4F9F3;
+    padding-bottom: 80px;
+}
+
+#footer .social-links {
+    margin: 8px;
+
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #6B9893 ;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+
+  #footer .social-links a:hover {
+    background: #ffb03b;
+  }
+
+  .twitter{
+      margin-bottom: 5px;
+  }
+
+  .instagram{
+    margin-bottom: 5px;
+}
+
+.whatsapp{
+    margin-bottom: 5px;
+}
+
+.facebook{
+    margin-bottom: 5px;
+}
+
+#footer p{
+    color: #6B9893 ;
+    font-size: 15px;
+}
+
+#footer a{
+    color: #6B9893 ;
+    font-size: 15px;
+}
